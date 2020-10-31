@@ -1,6 +1,5 @@
 import { of } from "./observable"
-import { map, subscribe } from "./observable/operators"
-import { filter } from "./observable/operators/filter"
+import { map, subscribe, filter } from "./observable/operators"
 
 of(1, 2, 3, 4, 5)
   |> map(x => x * 2)
