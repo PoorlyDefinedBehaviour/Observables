@@ -1,7 +1,5 @@
 import { Observable, of } from "../index"
-import { map, subscribe } from "."
-import { filter } from "./filter"
-import { from } from "./from"
+import { map, subscribe, filter, from } from "."
 
 describe("Operators unit test suite", () => {
   describe("map", () => {

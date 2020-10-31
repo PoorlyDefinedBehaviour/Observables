@@ -1,6 +1,6 @@
-const { of } = require("./observable")
-const { map, subscribe } = require("./observable/operators")
-const { filter } = require("./observable/operators/filter")
+import { of } from "./observable"
+import { map, subscribe } from "./observable/operators"
+import { filter } from "./observable/operators/filter"
 
 of(1, 2, 3, 4, 5)
   |> map(x => x * 2)
